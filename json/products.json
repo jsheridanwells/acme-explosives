@@ -1,0 +1,147 @@
+{
+    "products": [{
+        "fairy_sparklers": {
+            "id": 0,
+            "type": 0,
+            "name": "Fairy Sparklers",
+            "description": "Multi-colored sparklers that are safe for any age."
+        }
+    },
+    {
+        "bottle_rockets": {
+            "id": 0,
+            "type": 0,
+            "name": "Bottle Rockets",
+            "description": "A bottle rocket is a small skyrocket. A typical bottle rocket consists of a rocket engine attached to a stabilizing stick."
+        }
+    },
+    {
+        "roman_candles": {
+            "id": 0,
+            "type": 0,
+            "name": "Roman Candles",
+            "description": "A Roman candle is a traditional type of firework that ejects one or more stars or exploding shells."
+        }
+    },
+    {
+        "peony": {
+            "id": 0,
+            "type": 1,
+            "name": "Peony",
+            "description": "When you picture “fireworks” in your head, this is probably the mental image that you conjure up. No tails, no trails, just pure crackly, sparkly, globe-shaped bliss."
+        }
+    },
+    {
+        "girandolas": {
+            "id": 0,
+            "type": 1,
+            "name": "Girandola",
+            "description": "These wheel-like fireworks spin rapidly up into the air, shooting off sprays of sparks and sometimes emitting a high-pitched whistle."
+        }
+    },
+    {
+        "comet": {
+            "id": 0,
+            "type": 1,
+            "name": "Comets",
+            "description": "These bright spheres shoot upward and leave behind a thick glittery trail. They usually look best spread out in a row, as a prelude to a larger effect."
+        }
+    },
+    {
+        "hummer": {
+            "id": 0,
+            "type": 2,
+            "name": "Hummers",
+            "description": "these firewords make a humming noise."
+        }
+    },
+    {
+        "whistler": {
+            "id": 0,
+            "type": 2,
+            "name": "Whistlers",
+            "description": "These fireworks make a whistling noise."
+        }
+    },
+    {
+        "crackler": {
+            "id": 0,
+            "type": 2,
+            "name": "Cracklers",
+            "description": "These fireworks make a distinctive crackling noise."
+        }
+    },
+    {
+        "ammonium_nitrate": {
+            "id": 1,
+            "type": 3,
+            "name": "Ammonium Nitrate",
+            "description": "Ammonium nitrate is a chemical compound, the nitrate salt of the ammonium cation."
+        }
+    },
+    {
+        "nitrogen_trichloride": {
+            "id": 1,
+            "type": 3,
+            "name": "Nitrogen Trichloride",
+            "description": "Nitrogen trichloride, also known as trichloramine, is the chemical compound with the formula NCl3. This yellow, oily, pungent-smelling liquid is most commonly encountered as a byproduct of chemical reactions between ammonia-derivatives and chlorine."
+        }
+    },
+    {
+        "tetryl": {
+            "id": 1,
+            "type": 3,
+            "name": "Tetryl",
+            "description": "2,4,6-Trinitrophenylmethylnitramine commonly referred to as tetryl (C7H5N5O8) is an explosive compound used to make detonators and explosive booster charges."
+        }
+    },
+    {
+        "plutonium": {
+            "id": 1,
+            "type": 4,
+            "name": "Plutonium",
+            "description": "Plutonium is a transuranic radioactive chemical element with symbol Pu and atomic number 94."
+        }
+    },
+    {
+        "Hydrogen": {
+            "id": 1,
+            "type": 4,
+            "name": "hydrogen",
+            "description": "Hydrogen is a chemical element with symbol H and atomic number 1. With a standard atomic weight of circa 1.008, hydrogen is the lightest element on the periodic table."
+        }
+    },
+    {
+        "Uranium": {
+            "id": 1,
+            "type": 4,
+            "name": "uranium",
+            "description": "Uranium is a chemical element with symbol U and atomic number 92. It is a silvery-white metal in the actinide series of the periodic table."
+        }
+    },
+    {
+        "anfo": {
+            "id": 1,
+            "type": 5,
+            "name": "ANFO",
+            "description": "ANFO (or AN/FO, for ammonium nitrate/fuel oil) is a widely used bulk industrial explosive."
+        }
+    },
+    {
+        "TNT": {
+            "id": 1,
+            "type": 5,
+            "name": "TNT",
+            "description": "TNT is a chemical compound with the formula C6H2(NO2)3CH3. This yellow solid is sometimes used as a reagent in chemical synthesis, but it is best known as an explosive material with convenient handling properties."
+        }
+    },
+    {
+        "PETN": {
+            "id": 1,
+            "type": 5,
+            "name": "PETN",
+            "description": "PETN is one of the most powerful explosive materials known, with a relative effectiveness factor of 1.66. When mixed with a plasticizer, PETN forms a plastic explosive."
+        }
+    }
+    ]
+}
