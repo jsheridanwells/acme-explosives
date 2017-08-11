@@ -2,15 +2,15 @@
 
 let Types = {};
 
-Types.loadData = ()=> {
-	let xhr = new XMLHttpRequest();
-	xhr.open('GET', '../../json/types.json');
-	xhr.send();
-
-	xhr.addEventListener('load', function () {
-		let data = JSON.parse(xhr.responseText);
-		console.log("types data is now ", data);
-		return data;
+Types.loadData = function () {
+	return new Promise((resolve, reject)=>{
+		$.ajax({
+			url: './json/types.json'
+		}).done(function(data){
+			resolve(data);
+		}).fail(function(xhr, status, error){
+			reject(error);
+		});
 	});
 };
 

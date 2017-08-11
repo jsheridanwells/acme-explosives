@@ -2,15 +2,15 @@
 
 let Products = {};
 
-Products.loadData = () => {
-	let xhr = new XMLHttpRequest();
-	xhr.open('GET', '../../json/products.json');
-	xhr.send();
-
-	xhr.addEventListener('load', function () {
-		let data = JSON.parse(xhr.responseText);
-		console.log('products data is now', data);
-		return data;
+Products.loadData = function () {
+	return new Promise((resolve, reject)=>{
+		$.ajax({
+			url: './json/products.json'
+		}).done(function(data){
+			resolve(data);
+		}).fail(function(xhr, status, error){
+			reject(error);
+		});
 	});
 };
 

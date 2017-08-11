@@ -1,15 +1,14 @@
 'use strict';
 let Categories = {};
 
-Categories.loadData = () => {
-	return new Promise(function(resolve, reject){
-		let xhr = new XMLHttpRequest();
-		xhr.open('GET', '../../json/categories.json');
-		xhr.send();
-
-		xhr.addEventListener('load', function() {
-			let data = JSON.parse(xhr.responseText);
+Categories.loadData = function () {
+	return new Promise((resolve, reject)=>{
+		$.ajax({
+			url: './json/categories.json'
+		}).done(function(data){
 			resolve(data);
+		}).fail(function(xhr, status, error){
+			reject(error);
 		});
 	});
 };
