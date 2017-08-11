@@ -1,19 +1,22 @@
 'use strict';
 let DOM = {};
+let cardFrame = document.getElementById('card-frame');
 
-DOM.loadCards = (categories, types, products) => {
-	products.forEach((product)=>{
-		let newDiv = document.createElement('div');
-		newDiv.className = 'col-sm-4 card';
-		let content = `
-			<p><strong>PRODUCT</strong></p>
-			<p>TYPE</p>
-			<p>CATEGORY</p>
-			<p><DESCRIPTION</p>
-		`;
-		newDiv.innerHTML = content;
-		document.getElement.ById('card-frame').appendChild(newDiv);
-	});
+function writeToDOM(data, id) {
+	let productsArr = data.products.products,
+	typesArr = data.types.types,
+	categoriesArr = data.categories.categories;
+	// STATUS:  data is loading into new object
+	// figure out how to match ids from one object to id of another
+	//to rpint category and type names
+
+
+}
+
+DOM.loadData = (data, id)=> {
+	writeToDOM(data, id);
 };
+
+
 
 module.exports = DOM;
