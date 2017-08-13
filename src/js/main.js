@@ -6,6 +6,8 @@ let DOM = require('./DOM.js');
 
 let _data = {};
 
+
+
 $('.selector').click(function(){
 	let selectType = this.id;
 	Categories.loadData()
@@ -18,6 +20,6 @@ $('.selector').click(function(){
 		return Products.loadData(_data);
 	}).then(function(data3){
 		_data.products = data3;
-		DOM.loadData(_data);
+		DOM.loadData(_data, selectType);
 	});
 });
