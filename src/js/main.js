@@ -6,8 +6,9 @@ let DOM = require('./DOM.js');
 
 let _data = {};
 
-
-
+//promises load each of 3 JSON files,
+//passes data to DOM.loadData function
+//passes id of chosen selector
 $('.selector').click(function(){
 	let selectType = this.id;
 	Categories.loadData()
